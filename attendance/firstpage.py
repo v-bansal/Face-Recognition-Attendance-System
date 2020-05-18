@@ -23,10 +23,7 @@ def function3():
     os.system("py recognizer.py")
     playsound('sound.mp3')
 
-def function5():    
-   os.startfile(os.getcwd()+"/developers/diet1frame1first.html");
-   
-def function6():
+def function4():
 
     root.destroy()
 
@@ -51,9 +48,7 @@ Button(root,text="Recognize + Attendance",font=('times new roman',20),bg="#0D47A
 #creating attendance button
 Button(root,text="Attendance Sheet",font=('times new roman',20),bg="#0D47A1",fg="white",command=attend).grid(row=6,columnspan=2,sticky=N+E+W+S,padx=5,pady=5)
 
-Button(root,text="Developers",font=('times new roman',20),bg="#0D47A1",fg="white",command=function5).grid(row=8,columnspan=2,sticky=N+E+W+S,padx=5,pady=5)
-
-Button(root,text="Exit",font=('times new roman',20),bg="maroon",fg="white",command=function6).grid(row=9,columnspan=2,sticky=N+E+W+S,padx=5,pady=5)
+Button(root,text="Exit",font=('times new roman',20),bg="maroon",fg="white",command=function4).grid(row=9,columnspan=2,sticky=N+E+W+S,padx=5,pady=5)
 
 
 root.mainloop()
